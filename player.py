@@ -31,6 +31,7 @@ class Player(CircleShape):
         right = keys[pygame.K_d] or keys[pygame.K_RIGHT]
 
         shoot = keys[pygame.K_SPACE]
+        #shift = keys[pygame.K_LSHIFT] or keys[pygame.K_RSHIFT]
 
         if up:
             self.move(dt)
